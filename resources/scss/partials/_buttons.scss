@@ -1,0 +1,31 @@
+// _buttons.scss
+
+.btn-main {
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.60rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+
+    &.light {
+        background-color: #fff;
+        color: $primary-color;
+
+        &:hover {
+            background-color: darken(#fff, 10%);
+          }
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .btn-main {
+      padding: 0.5rem 1rem !important;
+      font-size: 0.875rem;
+    }
+  }

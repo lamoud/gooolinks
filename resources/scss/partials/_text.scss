@@ -1,0 +1,53 @@
+.decorated-text {
+    position: relative;
+    margin: 0 auto;
+    font-weight: bolder;
+    //font-size: 2.1rem;
+    max-width: 100%;
+    //display: inline-block;
+    line-height: 1.5;
+
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: $primary-color;
+    text-decoration-skip-ink: none;
+
+    // لنمط إضافي
+    text-underline-offset: -2px;
+}
+
+.price-card {
+
+    margin-bottom: 16px;
+
+    &.best{
+        color: $background-body;
+        background: $primary-color;
+
+        ul li {
+            &.available svg {
+                color: $background-body;
+            }
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+
+            &.available svg {
+                color: $primary-color;
+            }
+            svg {
+                width: 16px;
+                height: 16px;
+            }
+
+            &.unavailable {
+                text-decoration: line-through;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+footer {
+    a, .nav-link {
+        color: $text-color;
+
+        &:hover {
+            text-decoration: none;
+            color: darken($primary-color, 10%);
+        }
+
+        &.active {
+            color: $primary-color;
+        }
+    }
+}

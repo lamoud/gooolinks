@@ -1,0 +1,40 @@
+// _variables.scss
+
+$primary-color: #2D60FF;
+$background-body: #f5f7fa;
+$background-color: #EAEFFF;
+$background-dark-color: #3A3C40;
+$secondary-color: #979797;
+$text-color: #12141D;
+$text-color2: #B1B1B1;
+//$text-color: #444444;
+
+// مسار الخطوط
+$font-path: '../fonts/';
+
+// تعريف الخط الجديد
+@font-face {
+  font-family: 'ExpoArabic';
+  src: url("#{$font-path}ExpoArabic-Light.ttf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+// المتغيرات الأساسية للطباعة
+$font-family-base: 'ExpoArabic', 'Arial', sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+// المتغيرات الخاصة بالعناوين
+$font-family-heading: 'ExpoArabic', 'Arial', sans-serif;
+$heading-font-weight: 700;
+$heading-line-height: 1.2;
+$heading-color: #000;
+
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+
+// المتغيرات الإضافية للطباعة
+$paragraph-margin-bottom: 1rem;
+$link-color: #007bff;
+$link-hover-color: darken($link-color, 10%);

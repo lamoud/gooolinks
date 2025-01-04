@@ -1,0 +1,33 @@
+.card-navbar {
+    padding: 16px;
+    .navbar-title {
+        background: #F0F0F5;
+        padding: 8px;
+        color: #5F6C76;
+    }
+
+    .list-group-item {
+        padding: 12px 0;
+
+        a {
+            text-decoration: none;
+            color: $text-color;
+            transition: 0.3s ease;
+
+            &:hover {
+                color: $primary-color;
+            }
+            
+        }
+
+        &.active {
+            background: none;
+            border-color: #dee2e6;
+
+            a {
+                color: $primary-color;
+            }
+            
+        }
+    }
+}

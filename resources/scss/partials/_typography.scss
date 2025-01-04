@@ -1,0 +1,41 @@
+// _typography.scss
+
+// استيراد المتغيرات
+@import 'variables';
+
+// استيراد المزيجات
+@import 'mixins';
+
+// إعدادات الطباعة الأساسية
+
+
+// العناوين
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+  font-weight: $heading-font-weight;
+  line-height: $heading-line-height;
+  color: $heading-color;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+// أنماط إضافية للطباعة
+p {
+  margin-bottom: $paragraph-margin-bottom;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,23 @@
+
+.table-responsive {
+    border-radius: 40px;
+    background: #fff;
+    padding: 16px;
+
+    tbody, td, tfoot, th, thead, tr {
+        padding: 16px !important;
+        border: unset;
+    }
+
+    tbody {
+        
+        td {
+            vertical-align: middle;
+        }
+    }
+
+    tr td {
+        font-weight: bold;
+        color: gray;
+    }
+}

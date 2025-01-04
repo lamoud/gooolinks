@@ -1,0 +1,35 @@
+// _forms.scss
+
+.form-control {
+    padding: 0.5rem;
+    //border: 1px solid $secondary-color;
+    border-radius: 0.25rem;
+    width: 100%;
+    box-sizing: border-box;
+    background: $background-color;
+    outline: none;
+  
+    &:focus {
+      border-color: lighten($primary-color, 20%);
+      outline: none;
+    }
+  }
+
+  .form-card {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .card-socialmedia {
+    max-width: 450px;
+    margin: 0 auto;
+
+    a.btn {
+      text-decoration: none;
+    }
+  }
+
+  .large-switch {
+    width: 60px !important;
+    height: 30px;
+}

@@ -1,0 +1,42 @@
+header {
+    a, .nav-link {
+        color: $text-color;
+
+        &:hover {
+            text-decoration: none;
+            color: darken($primary-color, 10%);
+        }
+
+        &.active, link.active {
+            color: $primary-color !important;
+        }
+    }
+
+    &.backend {
+        background: #fff;
+        .custom-dropdown > a {
+            background: $background-body;
+            color: $primary-color;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .navbar-brand {
+        img.site_logo {
+            width: 120px !important;
+        }
+    }
+}
+
+footer {
+    .navbar-brand {
+        img.site_logo {
+            width: 120px !important;
+        }
+    }
+}
